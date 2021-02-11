@@ -1,0 +1,30 @@
+user:
+# Публичный ключ
+  public_key: "" 
+# Зашифрованный приватный ключ
+  encrypted_private_key: "" 
+# Дефолтный ip-адрес
+  ip: "127.0.0.1"
+  chain_db: "./data/chaindata.db"
+  pool_db: "./data/pool.db"
+  peer_db: "./data/peer.db"
+  max_peers: 30
+  min_peers: 10
+  queue_bind_in: "tcp://127.0.0.1:30014"
+  queue_bind_out: "tcp://127.0.0.1:30015"
+  queue_processing_networks: 2
+network:
+  name: "Safe Wallet"
+  ticker_symbol: "SFWL"
+  version: 1
+  initial_coins_per_block: 50
+  halving_frequency: 210000
+  max_transactrions_per_block: 2000
+  minimum_hash_difficulty: 1
+  target_time_per_block: 600
+  difficulty_adjustment_span: 500
+  significant_digits: 8
+  short_chain_tolerance: 3
+  full_node_port: 30013
+  downtime_threshold: 20
+  nodes_url: "http://{}:{}/nodes/"
