@@ -28,3 +28,15 @@ network:
   full_node_port: 30013
   downtime_threshold: 20
   nodes_url: "http://{}:{}/nodes/"
+  transactions_url: "http://{}:{}/transactions/{}"
+  trancactions_inv_url: "http://{}:{}/transactions/block_hash/{}"
+  unconfirmed_transactions_url: "http://{}:{}/unconfirmed_tx/{}"
+  blocks_inv_url: "http://{}:{}/blocks/start/{}/end/{}"
+  blocks_url: "http://{}:{}/blocks/{}/{}"
+  height_url: "http://{}:{}/height/"
+  transaction_history_url: "http://{}:{}/address/{}/transactions"
+  inbox_url: "http://{}:{}/inbox/"
+  balance_url: "http://{}:{}/address/{}/balance"
+  status_url: "http://{}:{}/status/"
+  connect_url: "http://{}:{}/connect/"
+  
