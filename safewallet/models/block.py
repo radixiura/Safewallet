@@ -57,4 +57,16 @@ class BlockHeader(object):
     return {key.lstrip('_'): value for key, value in self.__dict__.items()}
   
   @classmethod
-  def from_dict
+  def from_dict(cls, block_header_dict):
+    return cls(
+      block_header_dict['previous_hash']
+      block_header_dict['merkle_root']
+      block_header_dict['timestamp']
+      block_header_dict['nonce']
+      block_header_dict['version']
+    )
+  
+  def __repr__(self):
+    return "<Block Header {}>".format(self.merkle_root)
+  
+  def 
