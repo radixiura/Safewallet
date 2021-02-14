@@ -48,3 +48,13 @@ class BlockHeader(object):
         break
       difficulty += 1
     return difficulty
+  
+  def to_json(self):
+    return json.dumps(self, default=lambda o: {key.lstrip('_'): value for key, value in o.__dict__.items()},
+                      sort_keys=True)
+  
+  def to_dict(self):
+    return {key.lstrip('_'): value for key, value in self.__dict__.items()}
+  
+  @classmethod
+  def from_dict
