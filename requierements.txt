@@ -1,0 +1,11 @@
+bottle==0.12.19
+coincurve==15.0.0
+dill==0.3.3
+ecdsa==0.16.1
+grequests==0.6.0
+pycryptodomex==3.10.1
+pyscrypt==1.6.2
+PyYAML==5.4.1
+pyzmq==22.0.3
+requests==2.25.1
+virtualenv==20.4.2
