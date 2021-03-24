@@ -3,7 +3,7 @@ import hashlib
 import json
 import time
 
-from crankycoin.models.enums import TransactionType
+from safewallet.models.enums import TransactionType
 
 
 class Transaction(object):
