@@ -2,11 +2,11 @@ import logging
 import multiprocessing as mp
 import time
 
-from crankycoin.models.block import Block
-from crankycoin.models.transaction import Transaction
-from crankycoin.models.enums import MessageType, TransactionType
-from crankycoin.services.queue import Queue
-from crankycoin import config, logger
+from safewallet.models.block import Block
+from safewallet.models.transaction import Transaction
+from safewallet.models.enums import MessageType, TransactionType
+from safewallet.services.queue import Queue
+from safewallet import config, logger
 
 
 class Miner(object):
