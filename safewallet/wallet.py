@@ -3,9 +3,9 @@ import coincurve
 import json
 import random
 
-from crankycoin import logger
-from crankycoin.node import NodeMixin
-from crankycoin.models.transaction import Transaction
+from safewallet import logger
+from safewallet.node import NodeMixin
+from safewallet.models.transaction import Transaction
 
 _PY3 = sys.version_info[0] > 2
 if _PY3:
