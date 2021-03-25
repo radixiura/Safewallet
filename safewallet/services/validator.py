@@ -1,10 +1,10 @@
 import hashlib
 
-from crankycoin import logger, config
-from crankycoin.models.enums import TransactionType
-from crankycoin.repository.blockchain import Blockchain
-from crankycoin.repository.mempool import Mempool
-from crankycoin.models.errors import InvalidHash, ChainContinuityError, InvalidTransactions, BlockchainException
+from safewallet import logger, config
+from safewallet.models.enums import TransactionType
+from safewallet.repository.blockchain import Blockchain
+from safewallet.repository.mempool import Mempool
+from safewallet.models.errors import InvalidHash, ChainContinuityError, InvalidTransactions, BlockchainException
 
 
 class Validator(object):
