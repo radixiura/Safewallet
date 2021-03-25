@@ -1,7 +1,7 @@
 import zmq
 import time
 
-from crankycoin import config, logger
+from safewallet import config, logger
 
 """
 Experimental.  
