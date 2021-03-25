@@ -1,7 +1,7 @@
 import sys
 import zmq
 
-from crankycoin import config, logger
+from safewallet import config, logger
 
 
 class Queue(object):
