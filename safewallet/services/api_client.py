@@ -1,10 +1,10 @@
 import json
 import requests
 
-from crankycoin import config, logger
-from crankycoin.models.enums import MessageType
-from crankycoin.models.transaction import Transaction
-from crankycoin.models.block import BlockHeader
+from safewallet import config, logger
+from safewallet.models.enums import MessageType
+from safewallet.models.transaction import Transaction
+from safewallet.models.block import BlockHeader
 
 
 class ApiClient(object):
