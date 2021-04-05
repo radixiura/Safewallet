@@ -1,10 +1,10 @@
 import json
 from bottle import Bottle, response, request, abort
 
-from crankycoin.services.queue import Queue
-from crankycoin.models.enums import MessageType
-from crankycoin.repository.peers import Peers
-from crankycoin.repository.blockchain import Blockchain
+from safewallet.services.queue import Queue
+from safewallet.models.enums import MessageType
+from safewallet.repository.peers import Peers
+from safewallet.repository.blockchain import Blockchain
 
 permissioned_app = Bottle()
 
