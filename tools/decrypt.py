@@ -8,7 +8,6 @@ import hashlib
 import sys
 from Cryptodome.Cipher import AES
 
-# Python 2 & 3 compatibility
 _PY3 = sys.version_info[0] > 2
 if _PY3:
   input = raw_input
