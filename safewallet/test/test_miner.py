@@ -1,10 +1,10 @@
 import unittest
 from mock import Mock, patch, PropertyMock
-from crankycoin.miner import Miner
-from crankycoin.models.block import Block, BlockHeader
-from crankycoin.models.transaction import Transaction
-from crankycoin.repository.blockchain import Blockchain
-from crankycoin.repository.mempool import Mempool
+from safewallet.miner import Miner
+from safewallet.models.block import Block, BlockHeader
+from safewallet.models.transaction import Transaction
+from safewallet.repository.blockchain import Blockchain
+from safewallet.repository.mempool import Mempool
 
 
 class TestMiner(unittest.TestCase):
