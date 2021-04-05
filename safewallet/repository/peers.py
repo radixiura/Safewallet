@@ -1,7 +1,7 @@
 import os
 import sqlite3
 
-from crankycoin import config
+from safewallet import config
 
 
 class Peers(object):
