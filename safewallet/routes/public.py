@@ -1,13 +1,13 @@
 import json
 from bottle import Bottle, response, request
 
-from crankycoin import logger, config
-from crankycoin.services.api_client import ApiClient
-from crankycoin.services.validator import Validator
-from crankycoin.models.transaction import Transaction
-from crankycoin.repository.peers import Peers
-from crankycoin.repository.mempool import Mempool
-from crankycoin.repository.blockchain import Blockchain
+from safewallet import logger, config
+from safewallet.services.api_client import ApiClient
+from safewallet.services.validator import Validator
+from safewallet.models.transaction import Transaction
+from safewallet.repository.peers import Peers
+from safewallet.repository.mempool import Mempool
+from safewallet.repository.blockchain import Blockchain
 
 public_app = Bottle()
 
