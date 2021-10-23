@@ -45,7 +45,6 @@ SafeWallet is a full-fledged crypto wallet designed to operate on the Debian Lin
 [(Back to top)](#table-of-contents)
 
 
-Leave a star in GitHub, give a clap in Medium and share this guide if you found this helpful.
 
 <!-- Add the footer here -->
 
