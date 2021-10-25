@@ -36,7 +36,7 @@ class TestMiner(unittest.TestCase):
         self.mock_blockchain.calculate_hash_difficulty.return_value = 1
         self.mock_mempool.get_unconfirmed_transactions_chunk.return_value = []
 
-        with patch('crankycoin.miner.Block', return_value=mock_block) as patched_block, \
+        with patch('safewallet.miner.Block', return_value=mock_block) as patched_block, \
                 patch('time.time', return_value=1521946404):
             result = self.subject.mine_block()
 
