@@ -1,5 +1,5 @@
-<!-- Add banner here -->
 
+![Random GIF](https://i.imgur.com/4zSckcx.png)
 # SafeWallet
 
 <!-- Add buttons here -->
@@ -16,8 +16,7 @@ SafeWallet is a full-fledged crypto wallet designed to operate on the Debian Lin
 
 
 
-![Random GIF](https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif) -->
-
+![Random GIF](https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif)
 # Table of contents
 
 
