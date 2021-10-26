@@ -1,7 +1,6 @@
 from __future__ import print_function
 
 import argparse
-import dill
 import hashlib
 import requests
 import sys
